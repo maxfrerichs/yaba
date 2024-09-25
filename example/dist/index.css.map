@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../src/index.css"],
-  "sourcesContent": ["body {\n    background-color: #f0f0f0;\n    font-family: 'Roboto', sans-serif;\n    margin: 0;\n    padding: 0;\n}"],
-  "mappings": "AAAA,KACI,iBAAkB,QAClB,YAAa,QAAQ,CAAE,WACvB,OAAQ,EACR,QAAS,CACb",
-  "names": []
-}

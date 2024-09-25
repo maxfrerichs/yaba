@@ -8,5 +8,5 @@ build:
     directory: "dist"
   options:
     minify: true
-    sourcemap: true
+    sourcemap: false
     treeShaking: true

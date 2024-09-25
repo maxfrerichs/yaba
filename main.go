@@ -59,13 +59,13 @@ func commandHelp() error {
 func commandBuild() error {
 	file, err := os.ReadFile("build.yaml")
 	if err != nil {
-		fmt.Println("Error reading config file")
+		fmt.Println("Error reading file")
 		return err
 	}
 	var config Config
 	err = yaml.Unmarshal(file, &config)
 	if err != nil {
-		fmt.Println("Error reading config file")
+		fmt.Println("Error parsing file")
 		os.Exit(1)
 	}
 
