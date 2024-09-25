@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.js"],
+  "sourcesContent": ["console.log('Hello, world!');\nfor (let i = 0; i < 10; i++) {\n  console.log(i);\n}"],
+  "mappings": "MAAA,QAAQ,IAAI,eAAe,EAC3B,QAAS,EAAI,EAAG,EAAI,GAAI,IAAK,CAC3B,QAAQ,IAAI,CAAC,CACf",
+  "names": []
+}

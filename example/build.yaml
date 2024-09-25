@@ -1,0 +1,12 @@
+build:
+  input:
+    directory: "src"
+    entrypoints:
+      - "index.js"
+      - "index.css"
+  output:
+    directory: "dist"
+  options:
+    minify: true
+    sourcemap: true
+    treeShaking: true
